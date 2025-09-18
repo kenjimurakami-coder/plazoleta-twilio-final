@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ObjectModel {
-    private Long id;
-    private String name;
+public class SmsMessageModel {
+    private String numero;
+    private String mensaje;
 }
